@@ -1,0 +1,143 @@
+{
+    "Sellable":{
+        "movie":[
+            {"label":"Language","name":"language","list":"english=English,hindi=Hindi,telugu=Telugu,tamil=Tamil,spanish=Spanish,chinese=Chinese,french=French,kannada=Kannada,punjabi=Punjabi,bengali=Bengali","datatype":"string"}
+           ,{"label":"Cast","name":"cast","datatype":"multiline"}
+           ,{"label":"Technicians","name":"technicians","datatype":"multiline"}
+           ,{"label":"Director","name":"director","datatype":"string"}
+           ,{"label":"Music","name":"music","datatype":"string"}
+           ,{"label":"Production Status","name":"productionStatus","datatype":"string","list":"concept,started,making,prerelease,scheduled,preview,released"}
+           ,{"label":"Content Type","name":"contentType","datatype":"MultiSelect","list":"action,drama,romantic,comedy,horror,historical,biopic,music,art,adult","multiple":"multiple"}
+           ,{"label":"Content Rating","name":"contentRating","datatype":"MultiSelect","list":"kids,teens,adults,seniors","multiple":"single"}
+           ,{"label":"Story Preview","name":"storyPreview","datatype":"multiline"}
+           ,{"label":"Release Date","name":"releaseDate","datatype":"date"}
+       ],
+       "home for rent":[
+        {"label":"No. Of Bedrooms", "list":"1,2,3,4,5,6", "datatype":"string","name":"beds"},
+        {"label":"No. Of Bathrooms", "list":"1,2,3,4", "datatype":"string","name":"baths"},
+        {"label":"Area in sq ft" ,"maxlength":5, "datatype":"number","name":"area"},
+        {"label":"Facing/Entrance", "list":"North East,East,North,West,South,South East,North West,South West", "datatype":"string","name":"facing"},
+        {"label":"Floor","maxlength":2, "datatype":"number","name":"floor"},
+        {"label":"About","maxlength":512, "datatype":"multiline","name":"about"},
+        {"label":"Rent Amount" ,"maxlength":8, "datatype":"currency","name":"price"},
+        {"label":"Period", "list":"Daily,Weekly,Monthly", "datatype":"string","name":"period"},
+        {"label":"Features", "list":"Air Conditioning,Swimming Pool,Green Landscape,Moon Roof,Furnished,Inside Laundry,Inside Bar,Gated Community,Beach View,Scenic View",multiple:'multiple',"datatype":"string","name":"features"},
+        {"label":"Conditions","maxlength":512, "datatype":"multiline","name":"conditions"}        
+       ],
+        "home for sale":[
+        {"label":"No. Of Bedrooms", "list":"1,2,3,4,5,6", "datatype":"string","name":"beds"},
+        {"label":"No. Of Bathrooms", "list":"1,2,3,4", "datatype":"string","name":"baths"},
+        {"label":"Area in sq ft" ,"maxlength":5, "datatype":"number","name":"area"},
+        {"label":"Facing/Entrance", "list":"North East,East,North,West,South,South East,North West,South West", "datatype":"string","name":"facing"},
+        {"label":"Floor","maxlength":2, "datatype":"number","name":"floor"},
+        {"label":"About","maxlength":512, "datatype":"multiline","name":"about"},
+        {"label":"Rent Amount" ,"maxlength":8, "datatype":"currency","name":"price"},
+        {"label":"Period", "list":"Daily,Weekly,Monthly", "datatype":"string","name":"period"},
+        {"label":"Features", "list":"Air Conditioning,Swimming Pool,Green Landscape,Moon Roof,Furnished,Inside Laundry,Inside Bar,Gated Community,Beach View,Scenic View",multiple:'multiple',"datatype":"string","name":"features"},
+        {"label":"Conditions","maxlength":512, "datatype":"multiline","name":"conditions"}        
+       ],
+        "plot for lease":[
+        {"label":"Area in sq ft" ,"maxlength":5, "datatype":"number","name":"area"},
+        {"label":"Facing/Entrance", "list":"North East,East,North,West,South,South East,North West,South West", "datatype":"string","name":"facing"},
+        {"label":"Floor","maxlength":2, "datatype":"number","name":"floor"},
+        {"label":"About","maxlength":512, "datatype":"multiline","name":"about"},
+        {"label":"Rent Amount" ,"maxlength":8, "datatype":"currency","name":"price"},
+        {"label":"Period", "list":"Daily,Weekly,Monthly", "datatype":"string","name":"period"},
+        {"label":"Features", "list":"Air Conditioning,Swimming Pool,Green Landscape,Moon Roof,Furnished,Inside Laundry,Inside Bar,Gated Community,Beach View,Scenic View",multiple:'multiple',"datatype":"string","name":"features"},
+        {"label":"Conditions","maxlength":512, "datatype":"multiline","name":"conditions"}        
+       ],
+        "plot for sale":[
+        {"label":"Area in sq ft" ,"maxlength":5, "datatype":"number","name":"area"},
+        {"label":"Facing/Entrance", "list":"North East,East,North,West,South,South East,North West,South West", "datatype":"string","name":"facing"},
+        {"label":"Floor","maxlength":2, "datatype":"number","name":"floor"},
+        {"label":"About","maxlength":512, "datatype":"multiline","name":"about"},
+        {"label":"Rent Amount" ,"maxlength":8, "datatype":"currency","name":"price"},
+        {"label":"Period", "list":"Daily,Weekly,Monthly", "datatype":"string","name":"period"},
+        {"label":"Features", "list":"Air Conditioning,Swimming Pool,Green Landscape,Moon Roof,Furnished,Inside Laundry,Inside Bar,Gated Community,Beach View,Scenic View",multiple:'multiple',"datatype":"string","name":"features"},
+        {"label":"Conditions","maxlength":512, "datatype":"multiline","name":"conditions"}        
+       ],
+        "land for sale":[
+        {"label":"Area in sq ft" ,"maxlength":5, "datatype":"number","name":"area"},
+        {"label":"Facing/Entrance", "list":"North East,East,North,West,South,South East,North West,South West", "datatype":"string","name":"facing"},
+        {"label":"Floor","maxlength":2, "datatype":"number","name":"floor"},
+        {"label":"About","maxlength":512, "datatype":"multiline","name":"about"},
+        {"label":"Rent Amount" ,"maxlength":8, "datatype":"currency","name":"price"},
+        {"label":"Period", "list":"Daily,Weekly,Monthly", "datatype":"string","name":"period"},
+        {"label":"Features", "list":"Air Conditioning,Swimming Pool,Green Landscape,Moon Roof,Furnished,Inside Laundry,Inside Bar,Gated Community,Beach View,Scenic View",multiple:'multiple',"datatype":"string","name":"features"},
+        {"label":"Conditions","maxlength":512, "datatype":"multiline","name":"conditions"}        
+       ],
+        "apartment for sale":[
+        {"label":"No. Of Bedrooms", "list":"1,2,3,4,5,6", "datatype":"string","name":"beds"},
+        {"label":"No. Of Bathrooms", "list":"1,2,3,4", "datatype":"string","name":"baths"},
+        {"label":"Area in sq ft" ,"maxlength":5, "datatype":"number","name":"area"},
+        {"label":"Facing/Entrance", "list":"North East,East,North,West,South,South East,North West,South West", "datatype":"string","name":"facing"},
+        {"label":"Floor","maxlength":2, "datatype":"number","name":"floor"},
+        {"label":"About","maxlength":512, "datatype":"multiline","name":"about"},
+        {"label":"Rent Amount" ,"maxlength":8, "datatype":"currency","name":"price"},
+        {"label":"Period", "list":"Daily,Weekly,Monthly", "datatype":"string","name":"period"},
+        {"label":"Features", "list":"Air Conditioning,Swimming Pool,Green Landscape,Moon Roof,Furnished,Inside Laundry,Inside Bar,Gated Community,Beach View,Scenic View",multiple:'multiple',"datatype":"string","name":"features"},
+        {"label":"Conditions","maxlength":512, "datatype":"multiline","name":"conditions"}        
+       ],
+        "apartment for rent":[
+        {"label":"No. Of Bedrooms", "list":"1,2,3,4,5,6", "datatype":"string","name":"beds"},
+        {"label":"No. Of Bathrooms", "list":"1,2,3,4", "datatype":"string","name":"baths"},
+        {"label":"Area in sq ft" ,"maxlength":5, "datatype":"number","name":"area"},
+        {"label":"Facing/Entrance", "list":"North East,East,North,West,South,South East,North West,South West", "datatype":"string","name":"facing"},
+        {"label":"Floor","maxlength":2, "datatype":"number","name":"floor"},
+        {"label":"About","maxlength":512, "datatype":"multiline","name":"about"},
+        {"label":"Rent Amount" ,"maxlength":8, "datatype":"currency","name":"price"},
+        {"label":"Period", "list":"Daily,Weekly,Monthly", "datatype":"string","name":"period"},
+        {"label":"Features", "list":"Air Conditioning,Swimming Pool,Green Landscape,Moon Roof,Furnished,Inside Laundry,Inside Bar,Gated Community,Beach View,Scenic View",multiple:'multiple',"datatype":"string","name":"features"},
+        {"label":"Conditions","maxlength":512, "datatype":"multiline","name":"conditions"}        
+       ],
+        "commercial space for lease":[
+        {"label":"Area in sq ft" ,"maxlength":5, "datatype":"number","name":"area"},
+        {"label":"Facing/Entrance", "list":"North East,East,North,West,South,South East,North West,South West", "datatype":"string","name":"facing"},
+        {"label":"Floor","maxlength":2, "datatype":"number","name":"floor"},
+        {"label":"About","maxlength":512, "datatype":"multiline","name":"about"},
+        {"label":"Rent Amount" ,"maxlength":8, "datatype":"currency","name":"price"},
+        {"label":"Period", "list":"Daily,Weekly,Monthly", "datatype":"string","name":"period"},
+        {"label":"Features", "list":"Air Conditioning,Swimming Pool,Green Landscape,Moon Roof,Furnished,Inside Laundry,Inside Bar,Gated Community,Beach View,Scenic View",multiple:'multiple',"datatype":"string","name":"features"},
+        {"label":"Conditions","maxlength":512, "datatype":"multiline","name":"conditions"}        
+       ],
+        "commercial space for sale":[
+        {"label":"Area in sq ft" ,"maxlength":5, "datatype":"number","name":"area"},
+        {"label":"Facing/Entrance", "list":"North East,East,North,West,South,South East,North West,South West", "datatype":"string","name":"facing"},
+        {"label":"Floor","maxlength":2, "datatype":"number","name":"floor"},
+        {"label":"About","maxlength":512, "datatype":"multiline","name":"about"},
+        {"label":"Rent Amount" ,"maxlength":8, "datatype":"currency","name":"price"},
+        {"label":"Period", "list":"Daily,Weekly,Monthly", "datatype":"string","name":"period"},
+        {"label":"Features", "list":"Air Conditioning,Swimming Pool,Green Landscape,Moon Roof,Furnished,Inside Laundry,Inside Bar,Gated Community,Beach View,Scenic View",multiple:'multiple',"datatype":"string","name":"features"},
+        {"label":"Conditions","maxlength":512, "datatype":"multiline","name":"conditions"}        
+       ],
+        "function hall":[
+        {"label":"Area in sq ft" ,"maxlength":5, "datatype":"number","name":"area"},
+        {"label":"Floor","maxlength":2, "datatype":"number","name":"floor"},
+        {"label":"About","maxlength":512, "datatype":"multiline","name":"about"},
+        {"label":"Rent Amount" ,"maxlength":8, "datatype":"currency","name":"price"},
+        {"label":"Period", "list":"Daily,Weekly", "datatype":"string","name":"period"},
+        {"label":"Features", "list":"Air Conditioning,Swimming Pool,Green Landscape,Moon Roof,Furnished,Inside Laundry,Inside Bar,Gated Community,Beach View,Scenic View",multiple:'multiple',"datatype":"string","name":"features"},
+        {"label":"Conditions","maxlength":512, "datatype":"multiline","name":"conditions"}        
+       ],
+        "event space":[
+        {"label":"Area in sq ft" ,"maxlength":5, "datatype":"number","name":"area"},
+        {"label":"Floor","maxlength":2, "datatype":"number","name":"floor"},
+        {"label":"About","maxlength":512, "datatype":"multiline","name":"about"},
+        {"label":"Rent Amount" ,"maxlength":8, "datatype":"currency","name":"price"},
+        {"label":"Period", "list":"Daily,Weekly,Monthly", "datatype":"string","name":"period"},
+        {"label":"Features", "list":"Air Conditioning,Swimming Pool,Green Landscape,Moon Roof,Furnished,Inside Laundry,Inside Bar,Gated Community,Beach View,Scenic View",multiple:'multiple',"datatype":"string","name":"features"},
+        {"label":"Conditions","maxlength":512, "datatype":"multiline","name":"conditions"}        
+       ],
+        "to let":[
+        {"label":"Area in sq ft" ,"maxlength":5, "datatype":"number","name":"area"},
+        {"label":"Facing/Entrance", "list":"North East,East,North,West,South,South East,North West,South West", "datatype":"string","name":"facing"},
+        {"label":"Floor","maxlength":2, "datatype":"number","name":"floor"},
+        {"label":"About","maxlength":512, "datatype":"multiline","name":"about"},
+        {"label":"Rent Amount" ,"maxlength":8, "datatype":"currency","name":"price"},
+        {"label":"Period", "list":"Daily,Weekly,Monthly", "datatype":"string","name":"period"},
+        {"label":"Features", "list":"Air Conditioning,Swimming Pool,Green Landscape,Moon Roof,Furnished,Inside Laundry,Inside Bar,Gated Community,Beach View,Scenic View",multiple:'multiple',"datatype":"string","name":"features"},
+        {"label":"Conditions","maxlength":512, "datatype":"multiline","name":"conditions"}        
+       ]
+        
+    }
+}
